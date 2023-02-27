@@ -1,0 +1,40 @@
+{
+  "name": "ajs-regex",
+  "version": "1.0.0",
+  "description": "ajs regex homework",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src",
+    "start": "node ./dist/main.js",
+    "coverage": "jest --coverage",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaZyablov/ajs-regex.git"
+  },
+  "author": "IlyaZyablov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaZyablov/ajs-regex/issues"
+  },
+  "homepage": "https://github.com/IlyaZyablov/ajs-regex#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.3",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "esquery": "1.4.0",
+    "jest": "^29.4.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0"
+  }
+}
